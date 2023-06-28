@@ -1,0 +1,20 @@
+import time
+print('Hello, my name is FunBot and I would like to connect with you today!')
+time.sleep(1.5)
+name=input('What is your real name?')
+time.sleep(1.5)
+print('Nice to meet you!',name) 
+time.sleep(2.5)
+age=int(input('How old are you?'))
+if age<18:
+  print('Wow! Cool, you will grow up very soon!')
+elif age==20:
+  print ('Wow! You are two years older now!')
+else:print('Amazing! You are now a grown up person!')
+time.sleep(1.5)
+location=input('Where are you from?')
+print("Wow! That's a great country!")
+time.sleep(1.5)
+print('Nice to meet you!',name+ ' I hope to see you again next time!')
+time.sleep(1.5)
+print('If you need anyone to talk to, FunBot would be glad to connect with you.', name)
